@@ -3,7 +3,8 @@ import Keys._
 
 object Dependencies {
   val Versions = Seq(
-    crossScalaVersions := Seq("2.12.8", "2.11.12"),
+    // estryker, test reverting to scala 2.11.12 crossScalaVersions := Seq("2.12.8", "2.11.12"),
+    crossScalaVersions := Seq("2.11.12"),
     scalaVersion := crossScalaVersions.value.head
   )
 
